@@ -71,6 +71,13 @@ use {"hrsh7th/cmp-buffer"} --source for text in buffer
 use {"hrsh7th/cmp-path"} --source for file system paths
 use{"saadparwaiz1/cmp_luasnip"} -- for autocompletion
 use{"rafamadriz/friendly-snippets"} -- useful snippets
+
+use {
+	config = function()
+		vim.cmd('colorscheme industry')
+	end
+    }
+		
 use {
 	"windwp/nvim-autopairs",
     config = function() require("nvim-autopairs").setup {} end
