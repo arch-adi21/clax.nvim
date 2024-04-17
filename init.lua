@@ -5,7 +5,7 @@ vim.keymap.set("n","<leader>nt",vim.cmd.Neotree)
 vim.keymap.set("n","<leader>md",vim.cmd.MarkdownPreviewToggle) --only works on md files
 vim.keymap.set("n","<leader>cs","<cmd>Telescope colorscheme<cr>") -- added colorscheme keybind
 vim.cmd('set number')
-vim.cmd('colorscheme default')
+vim.cmd('colorscheme industry')
 vim.cmd('tnoremap <Esc> <C-/><C-n>') --remap terminal for insert to normal mode
 function open_terminal()
 	-- make vertical split
